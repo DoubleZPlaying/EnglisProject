@@ -1,1 +1,14 @@
+Timeline:
+- Wake up (ignore alarm, wake up)
+- Go to school (take notes, talk)
+- Bonus (see teacher about test, have fun with friends)
+- Arrive to class (arrive on time, talk to friends)
+- Lunch (go to club, skip club)
+- Test (check answers, dont check answers)
+- End school (go home, stay for robotics)
+- Homework (do it, procrastinate)
+- Sleep (go to sleep on time, stay up watching netflix)
+END DAY
 
+Print:
+After all choices (end of game) print out actual story with all of inputed choices 

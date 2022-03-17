@@ -18,7 +18,7 @@ public class main
 
             if(temp.equals("wake up"))
             {
-                day.setWakeUp(temp);
+                day.setWakeUp(temp); 
             }
         }   
     }

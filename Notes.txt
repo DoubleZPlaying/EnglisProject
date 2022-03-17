@@ -11,4 +11,4 @@ Timeline:
 END DAY
 
 Print:
-After all choices (end of game) print out actual story with all of inputed choices 
+After all choices (end of game) print out actual story with all of inputed choices  

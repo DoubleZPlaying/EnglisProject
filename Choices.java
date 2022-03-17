@@ -28,7 +28,7 @@ public class Choices
 
     public void setAtSchool(String atSchool)
     {
-        this.atSchool = atSchool;
+        this.atSchool = atSchool; 
     }
 
     public void getAtSchool()

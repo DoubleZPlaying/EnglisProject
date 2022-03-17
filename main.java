@@ -16,7 +16,7 @@ public class main
             temp = temp.toLowerCase(); 
             System.out.println();
 
-            if(temp.equals("wake up"))
+            if(temp.equals("wake up")) 
             {
                 day.setWakeUp(temp); 
             }

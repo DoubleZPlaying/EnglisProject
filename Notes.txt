@@ -8,7 +8,7 @@ Timeline:
 - End school (go home, stay for robotics)
 - Homework (do it, procrastinate)
 - Sleep (go to sleep on time, stay up watching netflix)
-END DAY
+END DAY 
 
 Print:
 After all choices (end of game) print out actual story with all of inputed choices  

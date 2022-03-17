@@ -8,7 +8,7 @@ public class Choices
     String test;
     String endSchool;
     String homework;
-    String sleep;
+    String sleep; 
     int day;
 
     public Choices(int day)

@@ -4,6 +4,7 @@ public class Main
     public static void main(String[] args)
     {
         //philosophy: Your fate is altered by the choices you make using free will
+        //v1.00
         Scanner input = new Scanner(System.in);
         String temp;
 
@@ -11,7 +12,7 @@ public class Main
 
         while(true){
 
-            System.out.println("It's a normal day. You wake up to your alarm. Do you ignore it, or wake up? (ignore, wake up)");
+            System.out.println("It's a normal day. You wake up to your alarm. Do you ignore it, or wake up? (wake up, ignore)");
             temp = input.nextLine();
             temp = temp.toLowerCase(); 
             System.out.println();
@@ -70,7 +71,7 @@ public class Main
 
             System.out.println("HERE'S HOW YOUR DAY WENT:");
             System.out.print("This morning your alarm wakes you up. You decide to " + day.getWakeUp());
-            System.out.print(". After arriving, you head to class. In class " + day.getAtSchool());
+            System.out.print(". After arriving, you head to class. In class, " + day.getAtSchool());
             System.out.print(". After classes Bonus starts. You have a test to study for, " + day.getBonus());
             System.out.print(". Bonus comes to an end " + day.getArriveToClass());
             System.out.print(". After class you have lunch. You decide to " + day.getLunch() + " American Politics Club");
@@ -79,7 +80,9 @@ public class Main
             System.out.print(". Once you get home you " + day.getHomework());
             System.out.print(". It's beginning to get late and you begin to prepare for bed. " + day.getSleep());
 
-            input.close();
+            break;
         }   
+
+        input.close();
     }
 }

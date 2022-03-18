@@ -80,7 +80,7 @@ public class Choices
 
         else if(atSchool == 1)
         {
-            return "you talk and don't understand the lesson";
+            return "you talk to friends and don't understand the lesson";
         }
 
         else
@@ -127,7 +127,7 @@ public class Choices
 
     public void setArriveToClass(String arriveToClass)
     {
-        if(arriveToClass.equals("arrive on tmie"))
+        if(arriveToClass.equals("arrive on time"))
         {
             this.arriveToClass = 0;
         }
@@ -147,7 +147,7 @@ public class Choices
     {
         if(arriveToClass == 0)
         {
-            return "and you arrive on time";
+            return "and you arrive to class on time";
         }
 
         else if(arriveToClass == 1)

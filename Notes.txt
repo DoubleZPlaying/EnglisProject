@@ -11,20 +11,4 @@ Timeline:
 END DAY 
 
 Print:
-After all choices (end of game) print out actual story with all of inputed choices  
-
-Input model:
-if(wakeUp == 0)
-        {
-            return "";
-        }
-
-        else if(wakeUp == 1)
-        {
-            return "";
-        }
-
-        else
-        {
-            return "INVALID INPUT";
-        }
+After all choices (end of game) print out actual story with all of inputed choices 

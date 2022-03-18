@@ -3,11 +3,11 @@ Timeline:
 - Go to school (take notes, talk)
 - Bonus (see teacher, eat with friends)
 - Arrive to class (arrive on time, finish conversation)
-- Lunch (go to club, skip club)
-- Test (check answers, dont check answers)
-- End school (go home, stay for robotics)
+- Lunch (attend, skip)
+- Test (check, don't check)
+- End school (stay for robotics, go home)
 - Homework (do it, procrastinate)
-- Sleep (go to sleep on time, stay up watching netflix)
+- Sleep (go to bed, watch Netiflix)
 END DAY 
 
 Print:

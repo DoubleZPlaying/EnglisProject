@@ -46,6 +46,26 @@ public class main
             temp = temp.toLowerCase(); 
             System.out.println();
             day.setTest(temp);
+
+            System.out.println("The end of the school day has arrived. Are you going to stay for robotics, or go home? (stay for robotics, go home)");
+            temp = input.nextLine();
+            temp = temp.toLowerCase(); 
+            System.out.println();
+            day.setEndSchool(temp);
+
+            System.out.println("Now it's time for you to do homework. Will you do it, or procrastinate? (do it, procrastinate)");
+            temp = input.nextLine();
+            temp = temp.toLowerCase(); 
+            System.out.println();
+            day.setHomework(temp);
+
+            System.out.println("It's becoming late, and it's time to go to bed. Will you go to bed on time, or stay up and watch a TV show on Netflix? (go to bed, watch Netiflix)");
+            temp = input.nextLine();
+            temp = temp.toLowerCase(); 
+            System.out.println();
+            day.setSleep(temp);
+
+            
         }   
     }
 }

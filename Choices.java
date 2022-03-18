@@ -1,14 +1,14 @@
 public class Choices
 {
-    String wakeUp;
-    String atSchool;
-    String bonus;
-    String arriveToClass;
-    String lunch;
-    String test;
-    String endSchool;
-    String homework;
-    String sleep; 
+    int wakeUp;
+    int atSchool;
+    int bonus;
+    int arriveToClass;
+    int lunch;
+    int test;
+    int endSchool;
+    int homework;
+    int sleep; 
     int day;
 
     public Choices(int day)
@@ -18,7 +18,20 @@ public class Choices
 
     public void setWakeUp(String wakeUp)
     {
-        this.wakeUp = wakeUp;
+        if(wakeUp.equals("ignore"))
+        {
+            this.wakeUp = 0;
+        }
+
+        else if(wakeUp.equals("wake up"))
+        {
+            this.wakeUp = 1;
+        }
+        
+        else 
+        {
+            System.out.println("INVALID INPUT");
+        }
     }
 
     public void getWakeUp()

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class main
+public class Main
 {
     public static void main(String[] args)
     {
@@ -65,7 +65,21 @@ public class main
             System.out.println();
             day.setSleep(temp);
 
-            
+            day.testCalc();
+            System.out.println();
+
+            System.out.println("HERE'S HOW YOUR DAY WENT:");
+            System.out.print("This morning your alarm wakes you up. You decide to " + day.getWakeUp());
+            System.out.print(". After arriving, you head to class. In class " + day.getAtSchool());
+            System.out.print(". After classes Bonus starts. You have a test to study for, " + day.getBonus());
+            System.out.print(". Bonus comes to an end " + day.getArriveToClass());
+            System.out.print(". After class you have lunch. You decide to " + day.getLunch() + " American Politics Club");
+            System.out.print(". After lunch it's time to take your test. You are ready to turn in the test " + day.getTest());
+            System.out.print(". The school day comes to close, and you " + day.getEndSchool());
+            System.out.print(". Once you get home you " + day.getHomework());
+            System.out.print(". It's beginning to get late and you begin to prepare for bed. " + day.getSleep());
+
+            input.close();
         }   
     }
 }

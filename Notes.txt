@@ -14,8 +14,17 @@ Print:
 After all choices (end of game) print out actual story with all of inputed choices  
 
 Input model:
-System.out.println("");
-            temp = input.nextLine();
-            temp = temp.toLowerCase(); 
-            System.out.println();
-            day.set(temp);
+if(wakeUp == 0)
+        {
+            return "";
+        }
+
+        else if(wakeUp == 1)
+        {
+            return "";
+        }
+
+        else
+        {
+            return "INVALID INPUT";
+        }
